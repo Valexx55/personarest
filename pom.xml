@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>edu.val</groupId>
 	<artifactId>restprofe</artifactId>
-	<version>1.3.3-SNAPSHOT</version>
+	<version>1.3.3</version>
 	<name>restprofe</name>
 	<description>Ejemplo Batch</description>
 	<url />

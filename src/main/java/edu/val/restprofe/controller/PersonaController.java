@@ -1,5 +1,7 @@
 package edu.val.restprofe.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +23,11 @@ public class PersonaController {
 		return new Persona(1L, "Vale", 41);
 	}
 	
+	@GetMapping("/all")
+	public List<Persona> obtenerPersonas ()
+	{
+		return List.of(new Persona(1L, "Vale", 41), new Persona(1L, "Vale", 41), new Persona(1L, "Vale", 41));
+	}
 	
 	@GetMapping("/entorno")
 	public String obtenerEntorno ()

@@ -23,6 +23,7 @@ public class PersonaController {
 		return new Persona(1L, "Vale", 41);
 	}
 	
+	//comentarios
 	@GetMapping("/all")
 	public List<Persona> obtenerPersonas ()
 	{

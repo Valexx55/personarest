@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>edu.val</groupId>
 	<artifactId>restprofe</artifactId>
-	<version>1.3.2</version>
+	<version>1.3.3-SNAPSHOT</version>
 	<name>restprofe</name>
 	<description>Ejemplo Batch</description>
 	<url />
@@ -52,11 +52,11 @@
 	<build>
 		<pluginManagement>
 			<plugins>
-				<plugin>
+				<!--<plugin>
 					<groupId>edu.kyndryl</groupId>
 					<artifactId>migoal</artifactId>
 					<version>0.0.1-SNAPSHOT</version>
-				</plugin>
+				</plugin>-->
 
 				<!--<plugins>-->
 				<plugin>
@@ -67,7 +67,7 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-deploy-plugin</artifactId>
 				</plugin>
-				<plugin>
+				<!--<plugin>
 					<groupId>edu.kyndryl</groupId>
 					<artifactId>migoal</artifactId>
 					<executions>
@@ -78,7 +78,7 @@
 							</goals>
 						</execution>
 					</executions>
-				</plugin>
+				</plugin>-->
 				<!--</plugins>-->
 			</plugins>
 		</pluginManagement>

@@ -13,7 +13,7 @@ import edu.val.restprofe.dto.Persona;
 @RequestMapping("/persona")
 public class PersonaController {
 	
-	
+	//cuidado porque a partir de ahora, la versión en ejecución por defecto es proudcción
 	@Value("${mientorno}")
 	String mientorno;
 	
